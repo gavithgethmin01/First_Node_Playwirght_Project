@@ -1,0 +1,13 @@
+{
+  "name": "apluseducation-lessons-scraper",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Scrape and sort lesson titles from aPlus Academy",
+  "type": "module",
+  "scripts": {
+    "scrape": "node scrape-lessons.mjs"
+  },
+  "dependencies": {
+    "playwright": "^1.54.2"
+  }
+}
